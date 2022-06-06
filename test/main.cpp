@@ -16,9 +16,9 @@ void ChangeTower(int NumberOfRings, char SourceT, char DestinationT, char Auxili
 int main()
 {
     int RingsNumber;
-    char SourceTower = 'T1';
-    char DestinationTower = 'T3';
-    char AuxiliaryTower = 'T2';
+    char SourceTower = 'A';
+    char DestinationTower = 'B';
+    char AuxiliaryTower = 'C';
     cout << "pleas enter the number of rings u want to have on the source tower : " << endl;
     cin >> RingsNumber;
     ChangeTower(RingsNumber, SourceTower, DestinationTower, AuxiliaryTower);
